@@ -19,10 +19,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={< About />} />
-        <Route path="/Skills" element={< Skills />} />
-        <Route path="/Contact" element={< Contact />} />
-        <Route path="/Projects" element={< Projects />} />
+        <Route path="/about" element={< About />} />
+        <Route path="/skills" element={< Skills />} />
+        <Route path="/contact" element={< Contact />} />
+        <Route path="/projects" element={< Projects />} />
       </Routes>
       <Footer />
     </BrowserRouter>
